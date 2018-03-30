@@ -25,3 +25,8 @@ C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\obj\De
 C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\obj\Debug\CapaPresentación.FrmPrincipal.resources
 C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\obj\Debug\CapaPresentación.Properties.Resources.resources
 C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\obj\Debug\CapaPresentación.csproj.GenerateResource.Cache
+C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\bin\Debug\CapaDatos.exe
+C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\bin\Debug\CapaDatos.pdb
+C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\obj\Debug\CapaPresentación.FrmConectarBD.resources
+C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\obj\Debug\CapaPresentación.FrmPruebas.resources
+C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\obj\Debug\CapaPresentación.FrmReportes.resources

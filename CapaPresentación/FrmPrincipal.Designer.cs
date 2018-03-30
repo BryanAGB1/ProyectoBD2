@@ -64,6 +64,7 @@
             this.BtnSeleccionBaseDatos.TabIndex = 10;
             this.BtnSeleccionBaseDatos.Text = "Selección de base de datos";
             this.BtnSeleccionBaseDatos.UseVisualStyleBackColor = true;
+            this.BtnSeleccionBaseDatos.Click += new System.EventHandler(this.BtnSeleccionBaseDatos_Click);
             // 
             // BtnPruebas
             // 

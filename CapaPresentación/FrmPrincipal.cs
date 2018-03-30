@@ -43,5 +43,12 @@ namespace CapaPresentación
         {
 
         }
+
+        private void BtnSeleccionBaseDatos_Click(object sender, EventArgs e)
+        {
+            FrmConectarBD cbd = new FrmConectarBD();
+            cbd.Show();
+            this.Hide();
+        }
     }
 }
