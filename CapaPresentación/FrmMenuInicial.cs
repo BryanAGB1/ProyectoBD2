@@ -27,7 +27,7 @@ namespace CapaPresentación
 
         private void FrmMenuInicial_Load(object sender, System.EventArgs e)
         {
-
+            //holi
         }
     }
 }
