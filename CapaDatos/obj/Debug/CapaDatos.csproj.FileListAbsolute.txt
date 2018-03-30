@@ -7,3 +7,11 @@ C:\Users\ExtremePC\Documents\Cursos de la uia\bases2\Proyecto\ProyectoFinal\Capa
 C:\Users\ExtremePC\Documents\Cursos de la uia\bases2\Proyecto\ProyectoFinal\CapaDatos\bin\Debug\CapaDatos.pdb
 C:\Users\ExtremePC\Documents\Cursos de la uia\bases2\Proyecto\ProyectoFinal\CapaDatos\obj\Debug\CapaDatos.exe
 C:\Users\ExtremePC\Documents\Cursos de la uia\bases2\Proyecto\ProyectoFinal\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaDatos\bin\Debug\CapaDatos.exe.config
+C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaDatos\bin\Debug\CapaDatos.exe
+C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaDatos\obj\Debug\CapaDatos.Properties.Resources.resources
+C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaDatos\obj\Debug\CapaDatos.csproj.GenerateResource.Cache
+C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaDatos\obj\Debug\CapaDatos.exe
+C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaDatos\obj\Debug\CapaDatos.pdb

@@ -16,8 +16,8 @@ namespace CapaPresentación
             FrmPrincipal p = new FrmPrincipal();
             p.Show();
             this.Hide();
-            string msg = "Para poder realizar pruebas con esta aplicacion, necesitaras lo siguiente: /n-Una base de datos en SQL server /n-SQL Server instalado en la maquina";
-            MessageBox.Show(msg, Environment.NewLine);
+            string msg = "Para poder realizar pruebas con esta aplicacion, necesitaras lo siguiente: \r\n-Una base de datos en SQL server \r\n-SQL Server instalado en la maquina";
+            MessageBox.Show(msg);
         }
 
         private void btnCerrar_Click(object sender, System.EventArgs e)
@@ -27,7 +27,7 @@ namespace CapaPresentación
 
         private void FrmMenuInicial_Load(object sender, System.EventArgs e)
         {
-            //holi
+           
         }
     }
 }
