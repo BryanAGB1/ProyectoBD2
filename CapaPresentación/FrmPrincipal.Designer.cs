@@ -86,6 +86,7 @@
             this.Controls.Add(this.BtnVolverMenuInicial);
             this.Name = "FrmPrincipal";
             this.Text = "Principal";
+            this.Load += new System.EventHandler(this.FrmPrincipal_Load);
             this.ResumeLayout(false);
 
         }

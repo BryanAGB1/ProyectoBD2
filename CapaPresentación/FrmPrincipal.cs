@@ -38,5 +38,10 @@ namespace CapaPresentación
         {
 
         }
+
+        private void FrmPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
