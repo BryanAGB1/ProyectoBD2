@@ -50,5 +50,19 @@ namespace CapaPresentación
             cbd.Show();
             this.Hide();
         }
+
+        private void BtnReportes_Click(object sender, EventArgs e)
+        {
+            FrmReportes reportes = new FrmReportes();
+            reportes.Show();
+            this.Hide();
+        }
+
+        private void BtnPruebas_Click(object sender, EventArgs e)
+        {
+            FrmPruebas p = new FrmPruebas();
+            p.Show();
+            this.Hide();
+        }
     }
 }

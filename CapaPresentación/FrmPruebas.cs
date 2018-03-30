@@ -31,5 +31,17 @@ namespace CapaPresentación
         {
 
         }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnCerrar_Click(object sender, EventArgs e)
+        {
+            FrmPrincipal p = new FrmPrincipal();
+            p.Show();
+            this.Hide();
+        }
     }
 }

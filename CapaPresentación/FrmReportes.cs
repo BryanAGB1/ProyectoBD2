@@ -16,5 +16,17 @@ namespace CapaPresentación
         {
             InitializeComponent();
         }
+
+        private void FrmReportes_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            FrmPrincipal p = new FrmPrincipal();
+            p.Show();
+            this.Hide();
+        }
     }
 }

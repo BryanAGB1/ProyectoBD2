@@ -54,6 +54,7 @@
             this.BtnReportes.TabIndex = 9;
             this.BtnReportes.Text = "Reportes de las ejecuciones de pruebas anteriores ";
             this.BtnReportes.UseVisualStyleBackColor = true;
+            this.BtnReportes.Click += new System.EventHandler(this.BtnReportes_Click);
             // 
             // BtnSeleccionBaseDatos
             // 
@@ -75,6 +76,7 @@
             this.BtnPruebas.TabIndex = 11;
             this.BtnPruebas.Text = "Realizar Pruebas";
             this.BtnPruebas.UseVisualStyleBackColor = true;
+            this.BtnPruebas.Click += new System.EventHandler(this.BtnPruebas_Click);
             // 
             // FrmPrincipal
             // 
