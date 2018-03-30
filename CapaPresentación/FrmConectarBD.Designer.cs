@@ -107,6 +107,7 @@
             this.Controls.Add(this.btnProbarConex);
             this.Controls.Add(this.lblBases);
             this.Controls.Add(this.cboBases);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmConectarBD";
             this.Text = "FrmConectarBD";
             this.ResumeLayout(false);

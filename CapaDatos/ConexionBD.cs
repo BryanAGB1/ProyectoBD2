@@ -25,9 +25,7 @@ namespace CapaDatos
             }
             catch (Exception e)
             {
-
             }
-
         }
 
         public void desconectar()
@@ -48,7 +46,6 @@ namespace CapaDatos
 
             }
             desconectar();
-
         }
 
         internal void insertar(SqlCommand comando)
@@ -64,7 +61,6 @@ namespace CapaDatos
                 //Detecto el error y notifico al usuario.
             }
             desconectar();
-
         }
 
         public DataTable consultar(String consulta)
@@ -78,9 +74,5 @@ namespace CapaDatos
             desconectar();
             return dt;
         }
-
-
-
     }//fin cls conexcion
-
 }

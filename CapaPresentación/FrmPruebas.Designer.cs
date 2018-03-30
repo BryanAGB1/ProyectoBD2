@@ -210,6 +210,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.cboPruebas);
             this.Controls.Add(this.lblTipoPrueba);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmPruebas";
             this.Text = "FrmPruebas";
             ((System.ComponentModel.ISupportInitialize)(this.NumCantidadPruebas)).EndInit();

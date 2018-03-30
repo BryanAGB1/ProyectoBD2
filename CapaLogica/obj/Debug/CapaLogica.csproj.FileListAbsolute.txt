@@ -21,3 +21,15 @@ C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaLogica\obj\Debug\Cap
 C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaLogica\obj\Debug\CapaLogica.csproj.GenerateResource.Cache
 C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaLogica\obj\Debug\CapaLogica.exe
 C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaLogica\bin\Debug\CapaLogica.exe.config
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaLogica\bin\Debug\CapaLogica.exe
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaLogica\bin\Debug\CapaDatos.exe
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaLogica\bin\Debug\CapaDatos.pdb
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaLogica\bin\Debug\CapaDatos.exe.config
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaLogica\obj\Debug\CapaLogica.csprojResolveAssemblyReference.cache
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaLogica\obj\Debug\CapaLogica.Properties.Resources.resources
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaLogica\obj\Debug\CapaLogica.csproj.GenerateResource.Cache
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaLogica\obj\Debug\CapaLogica.exe
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaLogica\obj\Debug\CapaLogica.pdb

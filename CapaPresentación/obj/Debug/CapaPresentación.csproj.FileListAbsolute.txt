@@ -30,3 +30,23 @@ C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\bin\De
 C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\obj\Debug\CapaPresentación.FrmConectarBD.resources
 C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\obj\Debug\CapaPresentación.FrmPruebas.resources
 C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\obj\Debug\CapaPresentación.FrmReportes.resources
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\bin\Debug\CapaPresentación.exe.config
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\bin\Debug\CapaPresentación.exe
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\bin\Debug\CapaPresentación.pdb
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\bin\Debug\CapaDatos.exe
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\bin\Debug\CapaLogica.exe
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\bin\Debug\CapaDatos.pdb
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\bin\Debug\CapaDatos.exe.config
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\bin\Debug\CapaLogica.pdb
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\bin\Debug\CapaLogica.exe.config
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\obj\Debug\CapaPresentación.csprojResolveAssemblyReference.cache
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\obj\Debug\CapaPresentación.FrmConectarBD.resources
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\obj\Debug\CapaPresentación.FrmMenuInicial.resources
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\obj\Debug\CapaPresentación.FrmPrincipal.resources
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\obj\Debug\CapaPresentación.FrmPruebas.resources
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\obj\Debug\CapaPresentación.FrmReportes.resources
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\obj\Debug\CapaPresentación.Properties.Resources.resources
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\obj\Debug\CapaPresentación.csproj.GenerateResource.Cache
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\obj\Debug\CapaPresentación.csproj.CoreCompileInputs.cache
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\obj\Debug\CapaPresentación.exe
+C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\obj\Debug\CapaPresentación.pdb

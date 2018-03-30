@@ -85,6 +85,7 @@
             this.Controls.Add(this.BtnSeleccionBaseDatos);
             this.Controls.Add(this.BtnReportes);
             this.Controls.Add(this.BtnVolverMenuInicial);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmPrincipal";
             this.Text = "Principal";
             this.Load += new System.EventHandler(this.FrmPrincipal_Load);
