@@ -34,13 +34,15 @@
             this.BtnAceptar = new System.Windows.Forms.Button();
             this.BtnCancelar = new System.Windows.Forms.Button();
             this.BtnCerrar = new System.Windows.Forms.Button();
+            this.txtServer = new System.Windows.Forms.TextBox();
+            this.lblServer = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // cboBases
             // 
             this.cboBases.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboBases.FormattingEnabled = true;
-            this.cboBases.Location = new System.Drawing.Point(78, 158);
+            this.cboBases.Location = new System.Drawing.Point(78, 186);
             this.cboBases.Name = "cboBases";
             this.cboBases.Size = new System.Drawing.Size(624, 41);
             this.cboBases.TabIndex = 0;
@@ -48,17 +50,17 @@
             // lblBases
             // 
             this.lblBases.AutoSize = true;
-            this.lblBases.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBases.Location = new System.Drawing.Point(171, 74);
+            this.lblBases.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBases.Location = new System.Drawing.Point(221, 154);
             this.lblBases.Name = "lblBases";
-            this.lblBases.Size = new System.Drawing.Size(438, 39);
+            this.lblBases.Size = new System.Drawing.Size(310, 29);
             this.lblBases.TabIndex = 1;
             this.lblBases.Text = "Bases de datos disponibles";
             // 
             // btnProbarConex
             // 
             this.btnProbarConex.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProbarConex.Location = new System.Drawing.Point(78, 244);
+            this.btnProbarConex.Location = new System.Drawing.Point(78, 295);
             this.btnProbarConex.Name = "btnProbarConex";
             this.btnProbarConex.Size = new System.Drawing.Size(624, 46);
             this.btnProbarConex.TabIndex = 2;
@@ -68,7 +70,7 @@
             // BtnAceptar
             // 
             this.BtnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAceptar.Location = new System.Drawing.Point(78, 311);
+            this.BtnAceptar.Location = new System.Drawing.Point(78, 362);
             this.BtnAceptar.Name = "BtnAceptar";
             this.BtnAceptar.Size = new System.Drawing.Size(624, 46);
             this.BtnAceptar.TabIndex = 3;
@@ -78,7 +80,7 @@
             // BtnCancelar
             // 
             this.BtnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCancelar.Location = new System.Drawing.Point(78, 378);
+            this.BtnCancelar.Location = new System.Drawing.Point(78, 429);
             this.BtnCancelar.Name = "BtnCancelar";
             this.BtnCancelar.Size = new System.Drawing.Size(624, 46);
             this.BtnCancelar.TabIndex = 4;
@@ -88,7 +90,7 @@
             // BtnCerrar
             // 
             this.BtnCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCerrar.Location = new System.Drawing.Point(78, 443);
+            this.BtnCerrar.Location = new System.Drawing.Point(78, 494);
             this.BtnCerrar.Name = "BtnCerrar";
             this.BtnCerrar.Size = new System.Drawing.Size(624, 46);
             this.BtnCerrar.TabIndex = 5;
@@ -96,11 +98,31 @@
             this.BtnCerrar.UseVisualStyleBackColor = true;
             this.BtnCerrar.Click += new System.EventHandler(this.BtnCerrar_Click);
             // 
+            // txtServer
+            // 
+            this.txtServer.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtServer.Location = new System.Drawing.Point(78, 96);
+            this.txtServer.Name = "txtServer";
+            this.txtServer.Size = new System.Drawing.Size(624, 38);
+            this.txtServer.TabIndex = 6;
+            // 
+            // lblServer
+            // 
+            this.lblServer.AutoSize = true;
+            this.lblServer.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblServer.Location = new System.Drawing.Point(84, 64);
+            this.lblServer.Name = "lblServer";
+            this.lblServer.Size = new System.Drawing.Size(608, 29);
+            this.lblServer.TabIndex = 7;
+            this.lblServer.Text = "Ingrese el servidor con el que vas a realizar las pruebas";
+            // 
             // FrmConectarBD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
+            this.Controls.Add(this.lblServer);
+            this.Controls.Add(this.txtServer);
             this.Controls.Add(this.BtnCerrar);
             this.Controls.Add(this.BtnCancelar);
             this.Controls.Add(this.BtnAceptar);
@@ -123,5 +145,7 @@
         private System.Windows.Forms.Button BtnAceptar;
         private System.Windows.Forms.Button BtnCancelar;
         private System.Windows.Forms.Button BtnCerrar;
+        private System.Windows.Forms.TextBox txtServer;
+        private System.Windows.Forms.Label lblServer;
     }
 }
