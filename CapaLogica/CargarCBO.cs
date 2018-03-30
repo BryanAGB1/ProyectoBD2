@@ -8,15 +8,19 @@ using System.Windows.Forms;
 
 namespace CapaLogica
 {
-    class CargarCBO
+    public class CargarCBO
     {
-        public void CargarCBOBase(string sentencia,ComboBox cbo )
+        public void CargarCBOBase(ComboBox cbo)
         {
+            
             ConsultasBD consulta = new ConsultasBD();
-            consulta.consultarBD_En_Instancia(sentencia);
-            cbo.Items.Add(sentencia);
+            consulta.consultarBD_En_Instancia(cbo);
+           
+
 
         }
+
+
 
 
     }

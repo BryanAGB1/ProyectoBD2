@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaLogica;
 
 namespace CapaPresentación
 {
@@ -22,6 +23,11 @@ namespace CapaPresentación
             FrmPrincipal p = new FrmPrincipal();
             p.Show();
             this.Hide();
+        }
+
+        private void FrmConectarBD_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }

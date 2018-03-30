@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaLogica;
+
 
 namespace CapaPresentación
 {
@@ -41,7 +43,7 @@ namespace CapaPresentación
 
         private void FrmPrincipal_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void BtnSeleccionBaseDatos_Click(object sender, EventArgs e)
