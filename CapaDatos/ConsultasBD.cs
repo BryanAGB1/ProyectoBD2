@@ -23,7 +23,7 @@ namespace CapaDatos
 
             try
             {
-
+                conex.Open();
             }
             catch(SqlException ex)
             {
