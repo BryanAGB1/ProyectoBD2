@@ -108,7 +108,6 @@
             this.label1.Size = new System.Drawing.Size(257, 25);
             this.label1.TabIndex = 6;
             this.label1.Text = "Interaciones completadas";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -171,9 +170,20 @@
             // 
             this.NumCantidadPruebas.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NumCantidadPruebas.Location = new System.Drawing.Point(671, 152);
+            this.NumCantidadPruebas.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.NumCantidadPruebas.Name = "NumCantidadPruebas";
             this.NumCantidadPruebas.Size = new System.Drawing.Size(503, 31);
             this.NumCantidadPruebas.TabIndex = 13;
+            this.NumCantidadPruebas.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.NumCantidadPruebas.ValueChanged += new System.EventHandler(this.NumCantidadPruebas_ValueChanged);
             // 
             // lblProgreso
             // 
@@ -189,9 +199,19 @@
             // 
             this.NumCantidadUsuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NumCantidadUsuarios.Location = new System.Drawing.Point(671, 279);
+            this.NumCantidadUsuarios.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.NumCantidadUsuarios.Name = "NumCantidadUsuarios";
             this.NumCantidadUsuarios.Size = new System.Drawing.Size(503, 31);
             this.NumCantidadUsuarios.TabIndex = 16;
+            this.NumCantidadUsuarios.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // lblCantUsuarios
             // 
@@ -239,6 +259,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmPruebas";
             this.Text = "FrmPruebas";
+            this.Load += new System.EventHandler(this.FrmPruebas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.NumCantidadPruebas)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NumCantidadUsuarios)).EndInit();
             this.ResumeLayout(false);

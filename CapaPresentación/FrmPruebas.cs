@@ -19,7 +19,10 @@ namespace CapaPresentación
 
         private void BtnEjecutar_Click(object sender, EventArgs e)
         {
-
+                BtnCerrar.Visible = false;
+                btnCancelar.Visible = true;
+          
+            
         }
 
         private void txtCantidadPruebas_TextChanged(object sender, EventArgs e)
@@ -27,13 +30,12 @@ namespace CapaPresentación
            
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
 
-        }
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
+            BtnCerrar.Visible = true;
+            btnCancelar.Visible = false;
 
         }
 
@@ -42,6 +44,16 @@ namespace CapaPresentación
             FrmPrincipal p = new FrmPrincipal();
             p.Show();
             this.Hide();
+        }
+
+        private void FrmPruebas_Load(object sender, EventArgs e)
+        {
+            btnCancelar.Visible = false;
+        }
+
+        private void NumCantidadPruebas_ValueChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

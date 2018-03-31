@@ -27,7 +27,25 @@ namespace CapaPresentación
 
         private void FrmConectarBD_Load(object sender, EventArgs e)
         {
-            
+            BtnAceptar.Visible = false;
+            BtnCancelar.Visible = false;
+            cboBases.Items.Add("prueba");
+
+        }
+
+        private void btnProbarConex_Click(object sender, EventArgs e)
+        {
+            if (txtServer.Text != ""&& cboBases.Text != "")
+            {   
+                    BtnAceptar.Visible = true;
+                    BtnCancelar.Visible = true;
+               
+                
+            }
+            else
+            {
+                MessageBox.Show("Por favor ingresa datos para poder probar la conexion");
+            }
         }
     }
 }

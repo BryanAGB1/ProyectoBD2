@@ -40,6 +40,7 @@
             // 
             // cboBases
             // 
+            this.cboBases.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboBases.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboBases.FormattingEnabled = true;
             this.cboBases.Location = new System.Drawing.Point(78, 186);
@@ -66,6 +67,7 @@
             this.btnProbarConex.TabIndex = 2;
             this.btnProbarConex.Text = "Probar conexión";
             this.btnProbarConex.UseVisualStyleBackColor = true;
+            this.btnProbarConex.Click += new System.EventHandler(this.btnProbarConex_Click);
             // 
             // BtnAceptar
             // 

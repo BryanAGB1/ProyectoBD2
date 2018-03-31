@@ -13,7 +13,7 @@ namespace CapaDatos
         
         public void consultarBD_En_Instancia(ComboBox cbo )
         {
-            //Cambiar esto pro el metodo de conectarse a la instancia
+            //Cambiar esto por el metodo de conectarse a la instancia
             SqlConnection conex = new SqlConnection();
             //llamar para conectarse a la instancia
 
