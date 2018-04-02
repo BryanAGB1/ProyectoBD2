@@ -24,3 +24,4 @@ C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaDatos\obj\Debug\CapaD
 C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
 C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaDatos\obj\Debug\CapaDatos.exe
 C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache

@@ -33,3 +33,6 @@ C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaLogica\obj\Debug\Capa
 C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
 C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaLogica\obj\Debug\CapaLogica.exe
 C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaLogica\bin\Debug\CapaDatos.exe.config
+C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete

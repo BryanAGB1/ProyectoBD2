@@ -5,74 +5,59 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
-
+using System.Windows.Forms;
 
 namespace CapaDatos
 {
-    class ConexionBD
+    public class ConexionBD
     {
-        SqlConnection conn;
-        
-        public void conectar()
-        {
-            //String conexion = "Data Source = BRYANPC\\SQL2016; Initial Catalog = UIAWK03; Integrated Security = True";
-            String conexion = "SELECT databases.name FROM sys.databases WHERE databases.state = 0 ORDER BY databases.name";
-            conn = new SqlConnection(conexion);
 
+        SqlConnection conex;
+        string baseUtilizar = "master";
+
+        public void conectarbd( string cadenaConex)
+        {
+           
+            conex = new SqlConnection(cadenaConex);
+            
             try
             {
-                conn.Open();
+                conex.Open();
+                MessageBox.Show("Conexion realizada");
             }
-            catch (Exception e)
+            catch (SqlException e)
             {
+                MessageBox.Show("Conexion NO realizada, ERROR EN LA CONEXION CON EL SERVIDOR");
             }
         }
 
-        public void desconectar()
+        public void ejecucionVerBasesDisponibles(string comandoEjecutar, ComboBox cbo ,string server)
+            
         {
-            conn.Close();
+            //server = "FRANPC-2017\\SQLEXPRESS";
+
+            string cadenaConex = "Data Source="+server+";Initial Catalog="+baseUtilizar+";Integrated Security=True";
+            conectarbd(cadenaConex);
+            SqlCommand comando = new SqlCommand(comandoEjecutar, conex);
+            List<string> databases = new List<string>();
+            SqlDataReader reader = comando.ExecuteReader();
+
+            if (reader.HasRows)
+            {
+                while (reader.Read())
+                {
+                    databases.Add((string)reader[0]);
+                }
+            }
+            else
+            {
+                MessageBox.Show("No se encontraron resultados");
+            }
+            reader.Close();
+            cbo.DataSource = databases.ToArray();
         }
 
-        internal void insertar(String consulta)
-        {
-            conectar();
-            SqlCommand comando = new SqlCommand(consulta, conn);
-            try
-            {
-                comando.ExecuteNonQuery();
-            }
-            catch (Exception e)
-            {
-
-            }
-            desconectar();
-        }
-
-        internal void insertar(SqlCommand comando)
-        {
-            conectar();
-            comando.Connection = conn;
-            try
-            {
-                comando.ExecuteNonQuery();
-            }
-            catch (Exception e)
-            {
-                //Detecto el error y notifico al usuario.
-            }
-            desconectar();
-        }
-
-        public DataTable consultar(String consulta)
-        {
-            conectar();
-            SqlCommand comando = new SqlCommand(consulta, conn);
-            SqlDataAdapter dataAdapter = new SqlDataAdapter(comando);
-            SqlCommandBuilder commandBuilder = new SqlCommandBuilder(dataAdapter);
-            DataTable dt = new DataTable();
-            dataAdapter.Fill(dt);
-            desconectar();
-            return dt;
-        }
     }//fin cls conexcion
+
+
 }
