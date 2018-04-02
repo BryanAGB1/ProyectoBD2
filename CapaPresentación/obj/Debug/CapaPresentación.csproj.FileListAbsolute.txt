@@ -50,7 +50,3 @@ C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\obj\Deb
 C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\obj\Debug\CapaPresentación.csproj.CoreCompileInputs.cache
 C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\obj\Debug\CapaPresentación.exe
 C:\Users\Bryan PC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\obj\Debug\CapaPresentación.pdb
-C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\bin\Debug\CapaDatos.exe.config
-C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\bin\Debug\CapaLogica.exe.config
-C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\obj\Debug\CapaPresentación.csproj.CoreCompileInputs.cache
-C:\Users\ExtremePC\Documents\GitHub\ProyectoBaseDeDatos\CapaPresentación\obj\Debug\CapaPresentación.csproj.CopyComplete

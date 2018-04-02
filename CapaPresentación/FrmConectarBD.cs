@@ -29,9 +29,9 @@ namespace CapaPresentación
 
         private void FrmConectarBD_Load(object sender, EventArgs e)
         {
-            BtnAceptar.Visible = false;
-            BtnCancelar.Visible = false;
-            cboBases.Items.Add("prueba");
+
+            lblBases.Visible = false;
+            cboBases.Visible = false;
             cargar.ConseguirInstancias(cboInstancias);
 
         }
@@ -39,15 +39,15 @@ namespace CapaPresentación
         private void btnProbarConex_Click(object sender, EventArgs e)
         {
             if (cboInstancias.Text != ""&& cboBases.Text != "")
-            {   
-                    BtnAceptar.Visible = true;
-                    BtnCancelar.Visible = true;
+            {
+                Metodos me = new Metodos();
+                me.conectarConBase(cboBases.Text, cboInstancias.Text);
                
                 
             }
             else
             {
-                MessageBox.Show("Por favor ingresa datos para poder probar la conexion");
+                MessageBox.Show("Por favor selecciona datos para poder probar la conexion, tambien verifica si tienes SQL server instalado en la maquina y una base de datos disponible para hacerlas pruebas /r/n Gracias");
             }
         }
 
@@ -67,6 +67,8 @@ namespace CapaPresentación
             string server = cboInstancias.Text;
             CargarCBO cargar = new CargarCBO();
             cargar.CargarCBOBase(cboBases, server);
+            lblBases.Visible = true;
+            cboBases.Visible = true;
 
 
         }

@@ -23,7 +23,7 @@ namespace CapaDatos
             try
             {
                 conex.Open();
-                MessageBox.Show("Conexion realizada");
+                MessageBox.Show("Conexion realizada con el servidor seleccionado");
             }
             catch (SqlException e)
             {
@@ -55,6 +55,22 @@ namespace CapaDatos
             }
             reader.Close();
             cbo.DataSource = databases.ToArray();
+        }
+
+        public void conexionBDSeleccionada(string cadenaConex)
+        {
+
+            conex = new SqlConnection(cadenaConex);
+
+            try
+            {
+                conex.Open();
+                MessageBox.Show("Conexion realizada con la base de datos seleccionada");
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show("Conexion NO realizada, ERROR EN LA CONEXION CON LA BASE DE DATOS EN EL SERVIDOR, el error de la conexion es: /r/n"+ ex.ToString());
+            }
         }
 
     }//fin cls conexcion

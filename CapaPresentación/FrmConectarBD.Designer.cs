@@ -31,8 +31,6 @@
             this.cboBases = new System.Windows.Forms.ComboBox();
             this.lblBases = new System.Windows.Forms.Label();
             this.btnProbarConex = new System.Windows.Forms.Button();
-            this.BtnAceptar = new System.Windows.Forms.Button();
-            this.BtnCancelar = new System.Windows.Forms.Button();
             this.BtnCerrar = new System.Windows.Forms.Button();
             this.lblServer = new System.Windows.Forms.Label();
             this.BtnBuscarBases = new System.Windows.Forms.Button();
@@ -44,7 +42,7 @@
             this.cboBases.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboBases.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboBases.FormattingEnabled = true;
-            this.cboBases.Location = new System.Drawing.Point(78, 231);
+            this.cboBases.Location = new System.Drawing.Point(76, 285);
             this.cboBases.Name = "cboBases";
             this.cboBases.Size = new System.Drawing.Size(624, 41);
             this.cboBases.TabIndex = 0;
@@ -54,7 +52,7 @@
             // 
             this.lblBases.AutoSize = true;
             this.lblBases.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBases.Location = new System.Drawing.Point(234, 184);
+            this.lblBases.Location = new System.Drawing.Point(232, 238);
             this.lblBases.Name = "lblBases";
             this.lblBases.Size = new System.Drawing.Size(310, 29);
             this.lblBases.TabIndex = 1;
@@ -63,33 +61,13 @@
             // btnProbarConex
             // 
             this.btnProbarConex.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProbarConex.Location = new System.Drawing.Point(78, 295);
+            this.btnProbarConex.Location = new System.Drawing.Point(78, 407);
             this.btnProbarConex.Name = "btnProbarConex";
             this.btnProbarConex.Size = new System.Drawing.Size(624, 46);
             this.btnProbarConex.TabIndex = 2;
             this.btnProbarConex.Text = "Probar conexión";
             this.btnProbarConex.UseVisualStyleBackColor = true;
             this.btnProbarConex.Click += new System.EventHandler(this.btnProbarConex_Click);
-            // 
-            // BtnAceptar
-            // 
-            this.BtnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAceptar.Location = new System.Drawing.Point(78, 362);
-            this.BtnAceptar.Name = "BtnAceptar";
-            this.BtnAceptar.Size = new System.Drawing.Size(624, 46);
-            this.BtnAceptar.TabIndex = 3;
-            this.BtnAceptar.Text = "Aceptar";
-            this.BtnAceptar.UseVisualStyleBackColor = true;
-            // 
-            // BtnCancelar
-            // 
-            this.BtnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCancelar.Location = new System.Drawing.Point(78, 429);
-            this.BtnCancelar.Name = "BtnCancelar";
-            this.BtnCancelar.Size = new System.Drawing.Size(624, 46);
-            this.BtnCancelar.TabIndex = 4;
-            this.BtnCancelar.Text = "Cancelar";
-            this.BtnCancelar.UseVisualStyleBackColor = true;
             // 
             // BtnCerrar
             // 
@@ -142,8 +120,6 @@
             this.Controls.Add(this.BtnBuscarBases);
             this.Controls.Add(this.lblServer);
             this.Controls.Add(this.BtnCerrar);
-            this.Controls.Add(this.BtnCancelar);
-            this.Controls.Add(this.BtnAceptar);
             this.Controls.Add(this.btnProbarConex);
             this.Controls.Add(this.lblBases);
             this.Controls.Add(this.cboBases);
@@ -161,8 +137,6 @@
         private System.Windows.Forms.ComboBox cboBases;
         private System.Windows.Forms.Label lblBases;
         private System.Windows.Forms.Button btnProbarConex;
-        private System.Windows.Forms.Button BtnAceptar;
-        private System.Windows.Forms.Button BtnCancelar;
         private System.Windows.Forms.Button BtnCerrar;
         private System.Windows.Forms.Label lblServer;
         private System.Windows.Forms.Button BtnBuscarBases;
