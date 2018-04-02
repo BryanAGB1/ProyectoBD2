@@ -69,7 +69,7 @@ namespace CapaDatos
             }
             catch (SqlException ex)
             {
-                MessageBox.Show("Conexion NO realizada, ERROR EN LA CONEXION CON LA BASE DE DATOS EN EL SERVIDOR, el error de la conexion es: /r/n"+ ex.ToString());
+                MessageBox.Show("Conexion NO realizada, ERROR EN LA CONEXION CON LA BASE DE DATOS EN EL SERVIDOR, el error de la conexion es: \r\n" + ex.ToString());
             }
         }
 
