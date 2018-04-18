@@ -73,7 +73,43 @@ namespace CapaDatos
             }
         }
 
-    }//fin cls conexcion
+        //ver como mando la cantidad de sentencias
+        private NumericUpDown sentencias;
+
+        public void setSentencias(NumericUpDown sentenciasEjecutar)
+        {
+            sentencias = sentenciasEjecutar;
+        }
+
+
+        public void EnviarConsulta()
+        {
+            decimal cantSentencias = sentencias.Value;
+            decimal cont = 1;
+            string sql =
+                "SELECT name " +
+                "FROM master..sysdatabases " +
+                "ORDER BY name";
+
+            //conectarbd(conex);
+            while (cont <= cantSentencias)
+            {
+                try
+                {
+                    SqlCommand comando = new SqlCommand(sql, conex);
+                   // MessageBox.Show("SI SE PUDO REALIZAR LA CONSULTA # " + cont.ToString());
+                }
+                catch
+                {
+                   MessageBox.Show("NO SE PUDO REALIZAR LA CONSULTA # " + cont.ToString());
+                }
+                cont++;
+
+            }
+
+        }
+
+        }//fin cls conexcion
 
 
 }
