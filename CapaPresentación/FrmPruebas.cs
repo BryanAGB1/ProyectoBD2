@@ -5,6 +5,8 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaLogica;
@@ -13,6 +15,8 @@ namespace CapaPresentación
 {
     public partial class FrmPruebas : Form
     {
+        private TimeSpan _start;
+
         public FrmPruebas()
         {
             InitializeComponent();
@@ -24,10 +28,8 @@ namespace CapaPresentación
                 btnCancelar.Visible = true;
                 Metodos met = new Metodos();
                 met.ejecucionProgressBar(NumCantidadUsuarios, progressBarEjecucion, NumCantidadPruebas);
-
-        
-          
-            
+                _start = new TimeSpan(DateTime.Now.Ticks);
+                ContadorTiempo();
         }
 
         private void txtCantidadPruebas_TextChanged(object sender, EventArgs e)
@@ -60,5 +62,19 @@ namespace CapaPresentación
         {
             
         }
+
+        public void ContadorTiempo()
+        {
+            var end = new TimeSpan(DateTime.Now.Ticks);
+           // DateTime.Now.Ticks
+            end = end.Subtract(_start);
+            var theTime = end.ToString();
+            if (theTime.Length > 8)
+                lblContadorTiempo.Text = theTime.Substring(0, 13);
+            else
+                lblContadorTiempo.Text = theTime + @".0000";
+        }
+
+
     }
 }
