@@ -126,6 +126,7 @@
             this.Controls.Add(this.cboBases);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmConectarBD";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmConectarBD";
             this.Load += new System.EventHandler(this.FrmConectarBD_Load);
             this.ResumeLayout(false);

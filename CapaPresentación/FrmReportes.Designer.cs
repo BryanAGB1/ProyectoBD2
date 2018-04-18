@@ -52,6 +52,7 @@
             this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmReportes";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmReportes";
             this.Load += new System.EventHandler(this.FrmReportes_Load);
             this.ResumeLayout(false);

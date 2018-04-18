@@ -70,11 +70,14 @@ namespace CapaPresentación
             end = end.Subtract(_start);
             var theTime = end.ToString();
             if (theTime.Length > 8)
-                lblContadorTiempo.Text = theTime.Substring(0, 13);
+                lblContadorTiempo.Text = theTime.Substring(0, 5);
             else
                 lblContadorTiempo.Text = theTime + @".0000";
         }
 
-
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

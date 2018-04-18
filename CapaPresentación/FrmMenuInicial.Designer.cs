@@ -66,6 +66,7 @@
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmMenuInicial";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Proyecto Final";
             this.Load += new System.EventHandler(this.FrmMenuInicial_Load);
             this.ResumeLayout(false);

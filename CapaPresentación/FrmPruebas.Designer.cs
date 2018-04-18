@@ -66,6 +66,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(500, 400);
             this.textBox1.TabIndex = 2;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // BtnEjecutar
             // 
@@ -259,6 +260,7 @@
             this.Controls.Add(this.lblTipoPrueba);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmPruebas";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmPruebas";
             this.Load += new System.EventHandler(this.FrmPruebas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.NumCantidadPruebas)).EndInit();
